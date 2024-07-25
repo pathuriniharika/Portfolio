@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="stylesheet" href="assets/css/styles.css">
+
+  <!-- =====BOX ICONS===== -->
+  <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+
+  <title>Niharika's Portfolio</title>
+</head>
+
+<body>
+  <!--===== HEADER =====-->
+  <header class="l-header">
+    <nav class="nav bd-grid">
+      <div>
+        <a href="#" class="nav__logo">Niharika</a>
+      </div>
+
+      <div class="nav__menu" id="nav-menu">
+        <ul class="nav__list">
+          <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+          <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+          <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+          <li class="nav__item"><a href="#work" class="nav__link">Projects</a></li>
+          <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+        </ul>
+      </div>
+
+
+      <div class="nav__toggle" id="nav-toggle">
+        <i class='bx bx-menu'></i>
+      </div>
+    </nav>
+  </header>
+
+  <main class="l-main">
+    <!--===== HOME =====-->
+    <section class="home bd-grid" id="home">
+      <div class="home__data">
+        <h1 class="home__title">Hello!<br>I'm <span class="home__title-color">Niharika.</span><br><span
+            class="typewriter">Aspiring Software Engineer</span><br> ISU Student </h1>
+
+
+
+        <a href="#about" class="button" onmouseover="this.innerHTML='About me &#8595;'"
+          onmouseout="this.innerHTML='About me &#8628;'">About me &#8628;</a>
+
+      </div>
+
+      <div class="home__social-icons">
+        <a href="https://www.linkedin.com/in/niharika-pathuri/" class="home__social-icon"><i
+            class='bx bxl-linkedin'></i></a>
+        <a href="https://github.com/pathuriniharika" class="home__social-icon"><i class='bx bxl-github'></i></a>
+      </div>
+
+      <div class="home__img">
+        <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+          xmlns:xlink="http://www.w3.org/1999/xlink">
+          <mask id="mask0" mask-type="alpha">
+            <path
+              d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+          </mask>
+          <g mask="url(#mask0)">
+            <path
+              d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+            <image class="home__blob-img" x="50" y="60" href="assets/img/Niharika1.jpg" />
+          </g>
+        </svg>
+      </div>
+    </section>
+
+    <!--===== ABOUT =====-->
+    <section class="about section" id="about" style="background-color: #300d19">
+
+      <h2 class="section-title">About</h2>
+
+      <div class="about__container bd-grid">
+        <div class="about__img">
+          <div class="gallery">
+            <img src="assets/img/Niharika2.jpg" alt="a hot air balloon">
+            <img src="assets/img/Niharika3.jpg" alt="a sky photo of an old city">
+            <img src="assets/img/Niharika4.jpg" alt="a small boat">
+            <img src="assets/img/Niharika5.jpg" alt="a forest">
+          </div>
+        </div>
+
+        <div>
+          <h2 class="about__subtitle white-text">I'm Niharika Pathuri</h2>
+          <p class="about__text white-text">Currently a third-year Software Engineering student at Iowa State
+            University. I'm an ambitious software developer who is passionate about creating things that
+            have an impact.
+            <br>
+            <br>
+            As someone who is driven and competitive, I naturally enjoy finding answers to challenges. I'm
+            always working on a challenging project, therefore there is never a time when I'm not.
+            <br>
+            <br>
+            When I'm not working, you can find me capturing moments, volunteering at local events, trying
+            out new and delicious dishes, or competing in hackathons.
+          </p>
+          <br>
+          <a href="#professional-experience" class="button" onmouseover="this.innerHTML='About me &#x1F4BB;'"
+            onmouseout="this.innerHTML='About me &#x2193;'">Experience &#x2193;</a>
+
+        </div>
+    </section>
+
+    <!--===== PROFESSIONAL EXPERIENCE =====-->
+    <section class="professional-experience section" id="professional-experience">
+      <h2 class="section-title">Professional Experience</h2>
+
+      <div class="professional-experience__container bd-grid">
+        <div class="professional-experience__titles">
+          <button class="professional-experience__title" data-title="Research Assistant"
+            data-date="January 2023 - May 2024"
+            data-description="Administer version updates and dependencies while guaranteeing system functionality through the implementation of Python testing and change detection."
+            data-skills="Skills: Github">Research Assistant | ARiSE Labs</button>
+
+          <button class="professional-experience__title" data-title="Computer Science Peer Mentor"
+            data-date="Aug 2022 - Dec 2022"
+            data-description="&bull;Assisted in teaching introductory computer science course in Python & graded weekly assignments
+                            &bull;Mentored 30+ incoming computer science freshmen during their transition to Iowa State University 
+                            &bull;Collaborated with other peer mentors to plan and execute group activities for our mentees"
+            data-skills="Skills: Python, Teaching, Mentoring">Computer Science Peer Mentor</button>
+
+          <button class="professional-experience__title" data-title="Google Computer Science Summer Institute"
+            data-date="July 2021 - Aug 2021" data-description="&bull;Completed an introductory project-based JavaScript processing curriculum taught by Google engineers
+                            &bull;Configured 4 individual coding projects in JavaScript by using concepts such as variables, data types, and functions
+                            &bull;Attended product design, resume development, and software engineering interview workshops
+                            &bull;Delivered a collaborative final project presentation that included a live demonstration to Google employees and
+                            community leaders" data-skills="Skills: JavaScript, Project Management">Google Computer
+            Science Summer Institute</button>
+
+          <button class="professional-experience__title" data-title="HTML & CSS Instructor"
+            data-date="Nov 2020 - May 2021" data-description="&bull;Created weekly class presentations, kahoots, quizzes, assigned homework & projects for tags, graphics, audio, etc
+                            &bull;Worked closely with middle school student to strengthen programming skills
+                            " data-skills="Skills: HTML, CSS, Teaching">HTML & CSS Instructor | Superposition
+            Stockton</button>
+        </div>
+
+        <div class="professional-experience__details">
+          <div class="professional-experience__detail">
+            <h2 class="professional-experience__detail-title"></h2>
+            <p class="professional-experience__detail-date"></p>
+            <p class="professional-experience__detail-description"></p>
+            <p class="professional-experience__detail-skills"></p>
+          </div>
+        </div>
+        <div style="text-align: center;">
+          <a href="#professional-experience" class="button"
+            onmouseover="this.innerHTML='Experience <code style=\'color: black;\'>&lt;/&gt;</code> '"
+            onmouseout="this.innerHTML='Experience &#x2193;'">Experience &#x2193;</a>
+
+
+
+
+        </div>
+    </section>
+
+
+
+
+    <!--===== WORK =====-->
+    <section class="work section" id="work">
+      <h2 class="section-title">Work</h2>
+
+      <div class="work__container bd-grid">
+        <a href="" class="work__img">
+          <img src="assets/img/work1.jpg" alt="">
+        </a>
+        <a href="" class="work__img">
+          <img src="assets/img/work2.jpg" alt="">
+        </a>
+        <a href="" class="work__img">
+          <img src="assets/img/work3.jpg" alt="">
+        </a>
+        <a href="" class="work__img">
+          <img src="assets/img/work4.jpg" alt="">
+        </a>
+        <a href="" class="work__img">
+          <img src="assets/img/work5.jpg" alt="">
+        </a>
+        <a href="" class="work__img">
+          <img src="assets/img/work6.jpg" alt="">
+        </a>
+      </div>
+    </section>
+
+    <!--===== CONTACT =====-->
+    <section class="contact section" id="contact">
+      <h2 class="section-title">Contact</h2>
+
+      <div class="contact__container bd-grid">
+        <form action="" class="contact__form">
+          <input type="text" placeholder="Name" class="contact__input">
+          <input type="mail" placeholder="Email" class="contact__input">
+          <textarea name="" id="" cols="0" rows="10" class="contact__input"></textarea>
+          <input type="button" value="Send" class="contact__button button">
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <!--===== FOOTER =====-->
+  <footer class="footer">
+    <p class="footer__title">Niharika</p>
+    <p class="footer__copy">Hope you have a great day;)</p>
+  </footer>
+
+
+  <!--===== SCROLL REVEAL =====-->
+  <script src="https://unpkg.com/scrollreveal"></script>
+
+  <!--===== MAIN JS =====-->
+  <script src="assets/js/main.js"></script>
+</body>
+
+</html>
